@@ -29,7 +29,7 @@ Flow: **H5 app** → **POST /draw** → **Backend** → **MySQL** (select + mark
 - **Step 1** — Database schema & pool initialization: done.
 - **Step 2** — Draw algorithm (deterministic, transactional, no double-draw): done.
 - **Step 3** — Draw API (POST /draw, 200/503/500): done and tested locally.
-- **Deployment** — Ready. Use this repo as the deployable backend (e.g. connect to Railway MySQL and set env vars).
+- **Step 4** — Railway deployment: see **README_STEP4.md** for full guidance.
 
 No frontend changes are included in this step.
 
@@ -46,4 +46,4 @@ npm run step3:start    # API on PORT or 3000
 # POST http://localhost:3000/draw
 ```
 
-See **README_STEP1.md**, **README_STEP2.md**, and **README_STEP3.md** for schema, algorithm, and API details.
+See **README_STEP1.md**, **README_STEP2.md**, **README_STEP3.md** for schema, algorithm, and API details. For deploying to Railway, see **README_STEP4.md**.
