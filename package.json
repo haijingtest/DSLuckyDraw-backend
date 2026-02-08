@@ -1,0 +1,20 @@
+{
+  "name": "ds-lucky-draw-backend",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Backend for Lucky Draw H5 app — Step 1: DB init only",
+  "scripts": {
+    "step1:init": "node init-pool.js",
+    "step1:verify": "node verify-pool.js",
+    "step1:reset": "node reset-pool.js",
+    "step2:test": "node step2-test.js",
+    "step3:start": "node server.js",
+    "step3:test": "node step3-test.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}

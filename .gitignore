@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets (never commit)
+.env
+
+# OS / editor
+.DS_Store
+*.log
